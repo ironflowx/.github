@@ -1,6 +1,8 @@
 # Ironflow
 
-Agents and workflows need history that survives crashes, retries and short-lived machines. Ironflowx builds that layer in Rust: open, MIT-licensed, and usable piece by piece. It is inspired by Ironflow. Ironflow 1.x, the shipping product, stays under the Ironflow License.
+Agents and workflows need history that survives crashes, retries and short-lived machines. Ironflowx builds that layer in Rust: open, MIT-licensed, and usable piece by piece.
+
+It is inspired by [Ironflow](https://ironflow.run). Ironflow 1.x, the shipping product, stays under the Ironflow License.
 
 **Original author and architect of both projects:** [Altug Sahin](https://github.com/sahina)
 
