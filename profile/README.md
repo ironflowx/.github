@@ -1,6 +1,8 @@
 # Ironflow
 
-Agents and workflows need history that survives crashes, retries and short-lived machines. Ironflowx builds that layer in Rust: open, MIT-licensed, and usable piece by piece. It is a rewrite of the Ironflow engine. Ironflow 1.x, the shipping product, stays under the Ironflow License.
+Agents and workflows need history that survives crashes, retries and short-lived machines. Ironflowx builds that layer in Rust: open, MIT-licensed, and usable piece by piece. It is inspired by Ironflow. Ironflow 1.x, the shipping product, stays under the Ironflow License.
+
+**Original author and architect of both projects:** [Altug Sahin](https://github.com/sahina)
 
 ![Layers: your agents and workflows sit on the ironflow engine (unreleased), which sits on the foundation crates (unreleased) and segment-log (0.1.0, released), which writes sealed history to disk. Dashed layers are in progress and not yet built on segment-log.](https://raw.githubusercontent.com/ironflowx/.github/main/profile/layers.svg)
 
