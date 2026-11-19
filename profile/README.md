@@ -1,6 +1,8 @@
 # Ironflow
 
-Open-source building blocks for durable, crash-safe event storage, written in Rust.
+Agents and workflows need history that survives crashes, retries and short-lived machines. Ironflowx builds that layer in Rust: open, MIT-licensed, and usable piece by piece. It is a rewrite of the Ironflow engine. Ironflow 1.x, the shipping product, stays under the Ironflow License.
+
+![Layers: your agents and workflows sit on the ironflow engine (unreleased), which sits on the foundation crates (unreleased) and segment-log (0.1.0, released), which writes sealed history to disk. Dashed layers are in progress and not yet built on segment-log.](https://raw.githubusercontent.com/ironflowx/.github/main/profile/layers.svg)
 
 | Project | What it is | Status |
 | --- | --- | --- |
